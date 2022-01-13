@@ -11,10 +11,6 @@
     <h1> Fill Out Our Awesome Survey!</h1>
     <div>
       <form id="formOne">
-        <div class="form-group">
-          <label for="name">What's your name?</label>
-          <input id="name" class="form-control" type="text">
-        </div>
         <label for="food">What's your favorite food?</label>
         <select class="form-control" id="food">
           <option>Pizza</option>
@@ -44,16 +40,20 @@
           <label for="color">What's your favorite color?</label>
           <input id="color" class="form-control" type="color">
         </div>
+        <div class="form-group">
+          <label for="name">What's your name?</label>
+          <input id="name" class="form-control" type="text">
+        </div>
       </form>
     </div>
 
     <div id="answers">
       <h3>Your Answers!</h3>
       <ul>
-        <li><span class="name"></span></li>
         <li><span class="food"></span></li>
         <li><span class="music"></span></li>
         <li><span class="color"></span></li>
+        <li><span class="name"></span></li>
       </ul>
 
     </div> 
